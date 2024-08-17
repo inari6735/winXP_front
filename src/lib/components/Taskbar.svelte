@@ -1,6 +1,7 @@
 <script>
     import start from "$img/start.png";
   import Clock from "./Clock.svelte";
+  import Task from "./Task.svelte";
 </script>
 
 <slot />
@@ -8,6 +9,8 @@
 <div class="task-bar">
     <div class="task-bar-left-section">
         <button class="task-bar-start-button" style="background-image: url({start});" />
+        <Task />
+        <Task />
     </div>
 
     <div class="task-bar-right-section">
@@ -35,6 +38,7 @@
         height: var(--task-bar-height);
         width: var(--start-button-width);
         background: transparent;
+        margin-right: 12px;
     }
 
     .task-bar-start-button:hover {
@@ -44,6 +48,8 @@
 
     .task-bar-left-section {
         width: 100%;
+        display: flex;
+        align-items: center;
     }
 
     .task-bar-right-section {
