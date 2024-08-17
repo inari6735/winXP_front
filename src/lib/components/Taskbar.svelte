@@ -5,8 +5,7 @@
 <slot />
 
 <div class="task-bar">
-        <button class="task-bar-start-button" style="background-image: url({start});">
-        </button>
+    <button class="task-bar-start-button" style="background-image: url({start});" />
 </div>
 
 <style>
