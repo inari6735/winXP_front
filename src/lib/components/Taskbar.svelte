@@ -1,5 +1,6 @@
 <script>
     import start from "$img/start.png";
+  import Clock from "./Clock.svelte";
 </script>
 
 <slot />
@@ -10,6 +11,7 @@
     </div>
 
     <div class="task-bar-right-section">
+        <Clock />
     </div>
 </div>
 
@@ -47,7 +49,11 @@
     .task-bar-right-section {
         background: #0b9df0;
         height: var(--task-bar-height);
-        width: 200px;
+        width: max-content;
+        padding: 0 2rem 0 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         box-shadow:
             inset 0px -58px 13px -62px black,
             inset 0px 62px 13px -62px rgb(255, 255, 255, 0.4),
