@@ -12,7 +12,7 @@
     <div class="task-bar-right-section">
     </div>
 </div>
-inset -100px 25px 13px -62px black;
+
 <style>
     .task-bar {
         height: var(--task-bar-height);
