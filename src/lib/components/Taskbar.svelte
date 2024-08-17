@@ -15,6 +15,10 @@
         background: #255cda;
         position: absolute;
         bottom: 0;
+        box-shadow: inset 0px -58px 13px -62px black,
+            inset 0px 62px 13px -62px rgb(255, 255, 255, 0.4),
+            0px 22px 13px 22px black;
+            
     }
 
     .task-bar-start-button {

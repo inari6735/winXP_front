@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    max-height: 100vh;
+}
+#main {
+    max-height: 100vh;
+}
+
 :root {
     --task-bar-height: 34px;
     --start-button-width: 106px;
