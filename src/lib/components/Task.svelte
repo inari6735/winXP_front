@@ -1,5 +1,7 @@
 <script>
     import logo from "$img/logo_xp.png";
+
+    let active = false;
 </script>
 
 <button class="task-opened">
@@ -21,6 +23,10 @@
         display: flex;
         color: white;
         align-items: center;
+    }
+
+    .task-opened:hover {
+        box-shadow: inset 0 0 10px 0 rgb(187, 183, 183);
     }
 
     .task-opened img {

@@ -4,6 +4,7 @@
 </script>
 
 <div class="container" style="background-image: url({wallpaper});">
+    <slot />
     <Taskbar />
 </div>
 
